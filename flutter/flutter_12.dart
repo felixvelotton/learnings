@@ -32,4 +32,9 @@ main() {
     'Maria':'+55 (21) 12345-6789',
     'pedro':'+55 (85) 45455-8989',
   };
+  print(telefones is Map);
+  print(telefones);
+  print(telefones['joao']);
+  print(telefones.length);
+  print(telefones.values)//fornece todas os valores do map ou lista
 }
