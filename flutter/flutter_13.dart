@@ -19,6 +19,6 @@ main() {
   print(times.contains(
       "vasco")); // consulta se o time esta dentro do da lista caso verdadeiro
   // é true caso falso é false.
-  print(times.first);
-  print(times.last);
+  print(times.first); //mostra o primeiro elemento da lista
+  print(times.last); // mostra o ultimo elemento da lista
 }

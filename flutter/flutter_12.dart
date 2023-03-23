@@ -38,4 +38,5 @@ main() {
   print(telefones.length); //
   print(telefones.values); //fornece todas os valores do map ou lista
   print(telefones.entries); //
+  print(telefones.keys); //
 }
