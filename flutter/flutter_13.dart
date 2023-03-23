@@ -9,7 +9,11 @@ main() {
     'Sao Paulo'
   };
   print(times
-      is Set); //A diferença entre Set e List é que Set não aceita repetição e List sim aceita
+      is Set); /*A diferença entre Set e List é que Set não aceita repetição e List sim aceita
+  O set não é uma estrutura indexada o que isso quer dizer, não podemos consultar os elementos da lista 
+  a partir da posição exemplo: 
+  print('times[0]'); não permite consultar
+  */
   times.add('Flamengo'); //adiciona um novo elemento na lista
   print(times.length); //apresenta a quantidade de elementos da lista
   print(
