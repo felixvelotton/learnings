@@ -26,15 +26,16 @@ main() {
   //para ver o tamanho da lista usamos NomeLista.length
   print(aprovados.length);
   // {} serve para alem de criar uma função
-  //criar a estrutura de um Map 
+  //criar a estrutura de um Map
   var telefones = {
-    'Joao':'+55 (11) 98765-4321',
-    'Maria':'+55 (21) 12345-6789',
-    'pedro':'+55 (85) 45455-8989',
+    'Joao': '+55 (11) 98765-4321',
+    'Maria': '+55 (21) 12345-6789',
+    'pedro': '+55 (85) 45455-8989',
   };
   print(telefones is Map);
   print(telefones);
-  print(telefones['joao']);
-  print(telefones.length);
-  print(telefones.values)//fornece todas os valores do map ou lista
+  print(telefones['joao']); //
+  print(telefones.length); //
+  print(telefones.values); //fornece todas os valores do map ou lista
+  print(telefones.entries); //
 }
