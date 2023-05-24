@@ -5,3 +5,10 @@
 // ###
 // ####
 // ######
+main() {
+  var valor = '#';
+  for (var i = 0; i < 5; i++) {
+    print(valor);
+    valor += '#';
+  }
+}
