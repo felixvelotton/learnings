@@ -1,5 +1,3 @@
-import 'dart:math';
-
 // lição de função com retorno
 main() {
   int resultado = somar(2, 3);
