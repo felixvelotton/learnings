@@ -1,19 +1,23 @@
 import 'dart:math';
 
 void executar(Function fnPar, Function fnImpar) {
-  var sorteado = Random().nextInt(10) % 2 == 0 ? fnPar : fnImpar;
+  var sorteado = Random()
+      .nextInt(10); //Random().nextInt(10)cuidado não precisa de ser redundante
   print('O valor sorteado foi $sorteado');
-  sorteado % 2 == 0 ? fnPar() : fnImpar();
+  sorteado % 2 == 0
+      ? fnPar()
+      : fnImpar(); //cuidado sorteado é uma variavel e não uma função
+  /* é a mesma coisa que:
+  if (sorteado%2==0){
+    fnPar();
+  } Elseif{
+    fnImpar();
+  }
+  */
 }
 
-//seria a mesma coisa que:
-/*if(Random().nextInt(10) % 2 == 0){
-    fnPar();
-}else{
-    fnImpar();
-}*/
-main() {
-  var minhaFnPar = () => print("Eita o valor é par");
-  var minhaFnImPar = () => print("Eita o valor é impar");
-  executar(minhaFnPar, minhaFnImpar);
+void main() {
+  var mFnPar = () => print("O valor é par");
+  var mFnImpar = () => print("O valor é ímpar");
+  executar(mFnPar, mFnImpar);
 }
