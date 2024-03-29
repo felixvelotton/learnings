@@ -1,4 +1,4 @@
-List<E> filtrar<E>(List<E> lista, bool Function(E) fn) {
+  List<E> filtrar<E>(List<E> lista, bool Function(E) fn) {
   List<E> listaFiltrada = [];
   for (E elemento in lista) {
     if (fn(elemento)) {
