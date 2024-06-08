@@ -4,9 +4,9 @@ int main(){
         int a;
         cout<<"ingrese un numero"<<endl;cin>>a; 
         if (a % 2 == 0){
-            cout<<"el numero é par"<<endl;
+            cout<<"el numero es par"<<endl;
         }
         else {
-            cout<<"el numero é impar"<<endl;
+            cout<<"el numero es impar"<<endl;
         }
 }
