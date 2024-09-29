@@ -1,24 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Partes semantica de um documento html</h1>
     <!-- tags como <header>, <footer>,<nav>,<section>,<article>,<aside> -->
 </body>
 <!-- uso do header: Cabeçalho da página ou de uma seção. -->
- <!-- uso do nav: Bloco de navegação com links-->
-  <!-- a tag <a href=“...”> ... </a> serve como hiperlink -->
- <header>
+<!-- uso do nav: Bloco de navegação com links-->
+<!-- a tag <a href=“...”> ... </a> serve como hiperlink -->
+<header>
     <h1>My Blog</h1>
+    <!-- barra de inicio -->
     <nav>
         <ul>
             <li><a href=“#”>hiperlink example</a></li>
-            <li><a href=""></a></li>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
         </ul>
     </nav>
- </header>
+
+</header>
+<main>
+    <section>
+        <h2>bem-vindo ao Meu Blog</h2>
+        <p>Este é um espaço onde discutimos desenvolvimento web e outras tecnologias</p>
+    </section>
+    <article>
+        <h2>Primeiro post do blog</h2>
+        <p>Hoje vamos falar sobre a importância do HTML5 na construção de sites modernos.</p>
+    </article>
+    <aside>
+        <h3>Publicidades</h3>
+        <p>compre os cursos de desenvolvimento web</p>
+    </aside>
+    <footer>
+        <!-- o footer é usado para definir o rodapé de uma pagina ou seção -->
+        No footer geralmente contem direitos autorais, links adicionais ou informações de contato.
+        exemplo
+        <p>&copy; 2024 Meu blog. Todos os direitos reservados.</p>
+        <nav>
+            <ul>
+                <li><a href="#privacy">Politica de privacidade</a></li>
+                <li><a href="#termns">Termos de uso</a></li>
+            </ul>
+        </nav>
+</main>
+<!-- a tag <main> ela serve para para indicar o conteudo principal o mais importante do site -->
+<!-- e por ultimo falaremos da tag <div> é uma tag auxiliar que é extremadamente util para colocar formato no CSS -->
+</footer>
+
 </html>
