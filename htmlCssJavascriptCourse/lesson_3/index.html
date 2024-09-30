@@ -1,11 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <h1> Tabelas e Imagens </h1>
+    <h2> Entendendo tabelas </h2>
+    <!-- inicio da tabela -->
+    <table id=“tabela”>
+        <caption>
+            Titulo geral
+        </caption>
+        <thead>
+            <tr>
+                <th>Titulo coluna 1</th>
+                <th>Titulo coluna 2</th>
+                <th>Titulo coluna 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>conteudo 1</td>
+                <td>conteudo 2</td>
+                <td>conteudo 3</td>
+            </tr>
+            <tr>
+                <td colspan="2">conteudo 1</td>
+                <td rowspan="2">conteudo 3</td>
+            </tr>
+            <tr>
+                <td>conteudo 1</td>
+                <td>conteudo 2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">rodapé</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
+<h3>Imagens no html como usar</h3>
+<!-- existem duas formas de colocar imagens -->
+<!-- <img src="caminho_da_imagem.jpg" alt="Descrição da imagem" height="10" width="10"> -->
+<!-- exemplo -->
+<img src="./pictures/rain.jpg" alt="chovendo" height="200" width="200">
+<p>imagem de chuva</p>
+<h3>Tag "figure"</h3>
+<p> é usada para agrupar conteúdo de mídia, como imagens, gráficos, ilustrações, etc.,
+    junto com uma legenda opcional. Ela dá mais significado semântico ao conteúdo.</p>
+    <figure>
+        <img src="./pictures/playa.jpg" alt="playa" height="200" width="200">
+        <figcaption>bora bora</figcaption>
+        <img src="./pictures/tahiti.jpg" alt="tahiti" height="200" width="200">
+        <figcaption>tahiti</figcaption>
+      </figure>
+
 </html>
