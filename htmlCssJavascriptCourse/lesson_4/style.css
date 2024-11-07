@@ -1,0 +1,46 @@
+/* formas de implementar as formatações a partir de atributos, id, classes ou all no CSS */
+/* Em uma página WEB, cada elemento é 
+representado como um box retangular. 
+Determinar o tamanho, propriedades - como 
+sua cor, fundo, estilo das bordas - e a posição 
+desses boxes é o objetivo do mecanismo de 
+renderização */
+/* BOX MODEL */
+/* No CSS, cada um desses boxes retangulares é 
+descrita usando o box model padrão. Este modelo 
+descreve o conteúdo do espaço ocupado por um 
+elemento. Cada box possui 4 edges: margin
+edge, border edge, padding edge e content edge. */
+/*
+margin edge:  é a parte mais externa do modelo de caixa. A margem (margin) 
+é o espaço externo ao redor da borda do elemento e afeta a distância entre 
+o elemento e outros elementos na página.
+border edge: é a linha que delimita a borda do elemento. A borda é opcional, 
+e seu tamanho é configurável. Ela fica entre o padding (caso exista) e a margem.   
+padding edge: é o espaço entre o conteúdo (content edge) e a borda do elemento (border edge).
+content edge: É a borda mais interna do elemento e delimita o conteúdo real (como texto ou imagens)
+|--------------------------------------------------|
+|                   Margin (margem)                |
+|  |--------------------------------------------|  |
+|  |             Border (borda)                 |  |
+|  |  |------------------------------------|    |  |
+|  |  |           Padding (preenchimento)  |    |  |
+|  |  |  |-----------------------------|   |    |  |
+|  |  |  |        Content (conteúdo)   |   |    |  |
+|  |  |  |-----------------------------|   |    |  |
+|  |  |------------------------------------|    |  |
+|  |--------------------------------------------|  |
+|--------------------------------------------------|
+COMO FORMATAR
+• Tags
+• Seletores 
+* (all)
+. (class)
+# (id)
+OU ATRIBUTOS
+body div p {
+ background-color: yellow;
+ padding: 10px;
+ margin: 0;
+}
+ */
